@@ -13,4 +13,4 @@ Queary any given Chromosome,position in one genome to find the sytenic region an
 -The first is quearyTree wich will identify the sytenic region/block(s) that the position falls within.
 -The second is quearySynBlock which will take the SynBlock object found in the first function, and find the coordinate/base pair information found between genome1 and genome2.
 Essentially, the first step of the algorithm takes about 5-10 minutes to run depending on the machine but only needs to be run once eachtime the notebook/script is opened. Then all point quearies are super fast.
-The alternative to this would be a database, but there are numerous reasons why we chose not to go that route (mainly cuz it would be a huge pain in the ass)
+The alternative to this would be a database, but there are numerous reasons why we chose not to go that route
