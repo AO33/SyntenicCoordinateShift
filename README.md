@@ -1,0 +1,2 @@
+# SyntenicCoordinateShift
+This jupyter notebook/project is essentially a set of functions that will allow for the conversion of one genomes coordinates to another via their syntenic relationship (if it exists). The program utilizes the syntenic alignment outputs from the program Satsuma (http://satsuma.sourceforge.net/) and the python intervaltree package (https://pypi.org/project/intervaltree/) to shift coordinates from one genome to another.
